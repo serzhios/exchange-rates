@@ -1,0 +1,61 @@
+
+.form {
+    position: relative;
+}
+
+.form_search  {
+    margin-bottom: 5px;
+    width: 350px;
+    /* height: 40px; */
+    position: relative;
+
+
+
+
+}
+ 
+
+ .autocomplete  {
+    /* position: absolute; */
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 1px 1px 5px rgba(219, 218, 218, 0.15);
+    z-index: 111;
+max-height: 240px;
+    height: auto;
+    overflow: auto;
+
+
+
+
+
+}
+
+ .autocomplete-item  {
+    padding: 10px;
+
+}
+
+.autocomplete-item:hover {
+    background: rgb(192, 190, 190);
+    cursor: pointer;
+    transition: cubic-bezier(1, 0, 0, 1) .3s all;
+    -webkit-transition: cubic-bezier(1, 0, 0, 1) .3s all;
+    -moz-transition: cubic-bezier(1, 0, 0, 1) .3s all;
+    -ms-transition: cubic-bezier(1, 0, 0, 1) .3s all;
+    -o-transition: cubic-bezier(1, 0, 0, 1) .3s all;
+}
+
+.error {
+    color: red;
+    /* position: absolute; */
+    font-size: 15px;
+    margin: 10px;
+}
+
+
